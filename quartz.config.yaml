@@ -6,11 +6,12 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: sv-SE
   baseUrl: ungaforskare.github.io/wiki-quartz
   ignorePatterns:
     - private
     - templates
+    - obsidian-mallar
     - .obsidian
   theme:
     fontOrigin: googleFonts
@@ -124,7 +125,7 @@ plugins:
     options: {}
     order: 45
   - source: "@quartz-community/encrypted-pages"
-    enabled: true
+    enabled: false
     options:
       iterations: 600000
       passwordField: password
