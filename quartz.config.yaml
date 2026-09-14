@@ -6,7 +6,7 @@ configuration:
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: sv-SE
+  locale: en-US
   baseUrl: ungaforskare.github.io/wiki-quartz
   ignorePatterns:
     - private
@@ -268,7 +268,7 @@ plugins:
       priority: 15
       display: all
   - source: "@quartz-community/obsidian-plugin-excalidraw"
-    enabled: true
+    enabled: false
     options:
       enableInteraction: true
       darkMode: auto
